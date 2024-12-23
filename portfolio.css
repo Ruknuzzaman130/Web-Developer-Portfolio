@@ -59,22 +59,20 @@ nav a {
 }
 
 .banner {
-    padding: 30px 30px 30px 150px;
-   display: flex;
-   align-items: center;
-
-    
+    padding: 30px 30px 30px 430px;
+    display: flex;
+    align-items: center;
 
 }
 
 .banner .profile-pic {
     
-  width: 650px;
-  height: 500px;
-  margin-left:190px;
-}
+  width: 750px;
+  height: 450px;
+
+ 
 
 .banner-content {
+     
 
-    
-}
+}   
