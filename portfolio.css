@@ -1,3 +1,9 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
 /* common shared style */
 body {
 
@@ -17,7 +23,9 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 0px 200px;
+    padding-top: 100px;
+
+
 }
 
 .nav-bar {
@@ -40,6 +48,7 @@ nav li {
 nav a {
     text-decoration: none;
     color: #474747;
+
 }
 
 .btn-primary {
@@ -55,24 +64,39 @@ nav a {
 /* header related style| */
 .header {
     background: color #fff8f3;
-
+    background-image: url(Image/White-Color-Abstract-Background-4k-Download.png);
+    height: 800px;
+    background-repeat: no-repeat;
+    background-position: center;
+   
 }
 
-.banner {
-    padding: 30px 30px 30px 430px;
-    display: flex;
+.banner{
+    padding:100px 0px 400px 300px;
+    display: flex; 
     align-items: center;
-
-}
-
-.banner .profile-pic {
+    justify-content: space-between;
     
-  width: 750px;
-  height: 450px;
-
- 
-
-.banner-content {
-     
-
-}   
+    
+}
+.profile-pic{
+    width: 540px;
+}
+.banner-grity{
+    font-size: 35px;
+    
+}
+.nanner-titel{
+   font-size: 60px;
+   color: #474747;
+   font-weight: 700px;
+   margin-bottom: 20px;
+}
+.tex-discription{
+    margin-bottom: 15px;
+ text-size-adjust: ;
+   
+}
+.banner-content{
+    
+}
