@@ -72,7 +72,7 @@ nav a {
 }
 
 .banner{
-    padding:100px 0px 400px 300px;
+    padding: 100px 300px;
     display: flex; 
     align-items: center;
     justify-content: space-between;
@@ -80,7 +80,8 @@ nav a {
     
 }
 .profile-pic{
-    width: 540px;
+ 
+    height: 540px;
 }
 .banner-grity{
     font-size: 35px;
@@ -97,6 +98,34 @@ nav a {
  text-size-adjust: ;
    
 }
-.banner-content{
-    
+/* main section style */
+
+
+/* about section style */
+
+.about{
+  text-align: center;
+  background-color: #FFF8F3;
+  height: 350px;
+  padding: 100px;
+
+}
+.section-titel{
+   font-size: 35px;
+   padding: 10px;
+
+}
+.section-discription{
+ padding: 40px;
+   
+}
+.main{
+    margin: 100px 250px ;
+    align-items: center ;
+
+}
+.about-info-cointairner{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
 }
