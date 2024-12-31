@@ -1,6 +1,7 @@
 * {
     padding: 0px;
     margin: 0px;
+    height: auto;
 }
 
 
@@ -125,7 +126,32 @@ nav a {
 
 }
 .about-info-cointairner{
+    
     display: flex;
     justify-content: space-around;
     margin-top: 60px;
+}
+.main-section1{
+    margin-top: 230px;
+}
+.section-contain{
+    display: flex;
+    
+    height:auto;
+    width: 1200px;
+  
+}
+.section-style{
+    padding: 20px 50px 50px 50px;
+    border:20px solid #FFFFFF;
+    background-color: #a7f1a7;
+  
+}
+.section-tite-2{
+    padding-top: 15px;
+}
+.js-image{
+    height: 100px;
+    width: 100x;
+    margin-left: 0px
 }
